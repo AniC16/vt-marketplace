@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.App-header h1 {
+  color: #276ef1; 
+  font-size: 4.5rem; 
+  text-align: center; 
+  margin-top: 2rem; 
+  margin-bottom: 1rem; 
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease; 
+}
+
+.App-header h1:hover {
+  transform: scale(1.05); 
+  color: #4f93e0; 
+}
+.App-header h2 {
+  transform: scale(1.05); 
+  color: #4f93e0; 
+  font-size: 2.5rem;
+}
+.App-header h2:hover {
+  transform: scale(1.05); 
+  color: #4fe588; 
+}
+.App-header p {
+  font-size: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Bootstrap's default secondary color */
+  color: white; /* White text for better readability */
+  border: none; /* Remove border for a cleaner look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  margin-right: 20px; /* Increase the distance to the next button */
+}
+
+/* Change background color on hover for better user interaction feedback */
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap's default primary color */
+  color: white; /* White text for better readability */
+  border: none; /* Remove border for a cleaner look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  margin-right: 20px; /* Maintain uniform distance between buttons */
+}
+
+/* Change background color on hover for better user interaction feedback */
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: start; /* Align buttons to the start of the container */
+  gap: 20px; /* Creates a gap between each button */
+  padding: 10px; /* Padding inside the button group */
+}
+
+.dropdown-menu {
+  border-radius: 0.25rem; /* Slightly rounded corners for the dropdown */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.dropdown-item {
+  color: #343a40; /* Dark grey for the dropdown items for readability */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Light background on hover for feedback */
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #007bff; /* Highlight color for the active item */
+  color: white;
+}
+
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.auth button {
+  background-color: #007bff;
+}
